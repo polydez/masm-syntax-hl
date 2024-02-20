@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>masm</string>
+		<string>masl</string>
+	</array>
+	<key>name</key>
+	<string>Miden Assembler</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(begin|call\.|const\.|dyncall\.|dynexec\.|else|end|exec\.|export\.|if\.true|proc\.|repeat\.|syscall\.|use\.|while\.true)\b</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(add|adv\.insert_hdword|adv\.insert_hperm|adv\.insert_mem|adv\.push_ext2intt|adv\.push_mapval|adv\.push_mapvaln|adv\.push_mtnode|adv\.push_sig\.|adv\.push_u64div|adv\.smt_get|adv\.smt_peek|adv\.smt_set|adv_loadw|adv_pipe|adv_push\.|and|assert|assert\.err|assert_eq|assert_eqw|assertz|caller|cdrop|cdropw|clk|cswap|cswapw|div|drop|dropw|dup|dupw|emit\.|eq|eqw|exp|ext2add|ext2div|ext2inv|ext2mul|ext2neg|ext2sub|gt|gte|hash|hmerge|hperm|inv|is_odd|loc_load\.|loc_loadw\.|loc_store\.|loc_storew\.|locaddr\.|lt|lte|mem_load|mem_loadw|mem_store|mem_storew|mem_stream|movdn|movdnw|movup|movupw|mtree_get|mtree_merge|mtree_set|mtree_verify|mul|neg|neq|not|or|padw|pow2|procref\.|push\.|sdepth|sub|swap|swapdw|swapw|u32and|u32assert|u32assert\.err|u32assert2|u32assertw|u32cast|u32div|u32divmod|u32gt|u32gte|u32lt|u32lte|u32max|u32min|u32mod|u32not|u32or|u32overflowing_add|u32overflowing_add3|u32overflowing_madd|u32overflowing_mul|u32overflowing_sub|u32popcnt|u32rotl|u32rotr|u32shl|u32shr|u32split|u32test|u32testw|u32wrapping_add|u32wrapping_add3|u32wrapping_madd|u32wrapping_mul|u32wrapping_sub|u32xor|xor)\b</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(debug\.local|debug\.mem|debug\.stack)\b</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>#!</string>
+			<key>end</key>
+			<string>\n</string>
+			<key>name</key>
+			<string>comment.documentation</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>#</string>
+			<key>end</key>
+			<string>\n</string>
+			<key>name</key>
+			<string>comment.line.number-sign</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.untitled</string>
+	<key>uuid</key>
+	<string>6E36F473-DE40-464C-BEFC-9591019E018F</string>
+</dict>
+</plist>

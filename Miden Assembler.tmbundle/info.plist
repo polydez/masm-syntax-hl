@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactName</key>
+	<string>@polydez</string>
+	<key>description</key>
+	<string>TextMate Bundle for Miden Assembler</string>
+	<key>name</key>
+	<string>Miden Assembler</string>
+	<key>uuid</key>
+	<string>0A9A7E94-DA03-47FD-B0E7-CCCE738D5E06</string>
+</dict>
+</plist>
